@@ -2,13 +2,11 @@ language: python
 script: true
 python:
 - '3.6'
-script: python setup.py
 
- test
 deploy:
   - provider: pypi
     user: baiwensimi
-    password: ${PYPI_PASSWORD}
+    password: A4bSXuu
     on:
       python: 3.6
       tags: true
