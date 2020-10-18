@@ -1,5 +1,5 @@
 language: python
-script: true
+script: python setup.py bdist_wheel
 python:
 - '3.6'
 
