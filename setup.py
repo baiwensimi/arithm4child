@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='arithm4child',
-    version='1.0',
+    version='1.1',
     packages=['arithm4child'],
     author="Bai Wensimi",
     author_email="baiwensimi@gmail.com",
