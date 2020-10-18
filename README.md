@@ -1,2 +1,3 @@
 # arithm4child
-arithmetic quiz for children
+
+Arithmetic quiz for children. Only support addition and substraction now.
