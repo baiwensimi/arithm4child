@@ -1,2 +1,15 @@
 language: python
 script: true
+python:
+- '3.6'
+script: python setup.py
+
+ test
+deploy:
+  - provider: pypi
+    user: baiwensimi
+    password: ${PYPI_PASSWORD}
+    on:
+      python: 3.6
+      tags: true
+      branch: master
