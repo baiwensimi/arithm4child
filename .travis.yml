@@ -13,7 +13,7 @@ deploy:
       tags: true
       branch: master
   - provider: releases
-    api_key: 94acee2e2a2e22e3b2479e0a56f07e435441de4e
+    api_key: $GITHUB_TOKEN
     file_glob: true
     file: dist/*
     skip_cleanup: true
