@@ -6,7 +6,7 @@ python:
 deploy:
   - provider: pypi
     user: baiwensimi
-    password: A4bSXuu
+    password: ${PYPI_PASSWD}
     distributions: "sdist bdist_wheel"
     on:
       python: 3.6
